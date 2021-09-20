@@ -1,4 +1,5 @@
 #include <stdio.h>
+void main() 
   {
   int i,j,n,wt[30],tat[30],bt[30],at[30],temp[30];
   float awt=0,atat=0;
