@@ -1,5 +1,6 @@
 //round robin
 #include <stdio.h>
+int main() {
 int i,n,qt,count=0,sq=0,bt[20],wt[20],tat[20],rem_bt[20],temp;
 float awt,atat;
 
@@ -42,6 +43,6 @@ rem_bt[i]=0;
  }
  awt=awt/n;
  atat=atat/n;
- printf("awt=%f",awt);
+ printf("awt=%f\n",awt);
   printf("atat=%f",atat);
 }
