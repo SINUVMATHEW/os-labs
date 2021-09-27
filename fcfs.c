@@ -20,6 +20,7 @@ int main() {
     tat[i]=0;
     temp[i+1]=temp[i]+bt[i];
     wt[i]=temp[i]-at[i];
+    tat[i]=wt[i]+bt[i];
    awt=awt+wt[i];
         atat=atat+tat[i];
         printf("%d\t%d\t\t%d\t\t%d\t\t%d\n",i+1,bt[i],at[i],wt[i],tat[i]);
